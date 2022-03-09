@@ -1,0 +1,45 @@
+/* challange-01 */
+
+.red{
+    color: red;
+}
+
+nav {
+    background-color:  #c4c4c4 !important;
+
+}
+nav a.nav-item   {
+
+    color: black !important;
+}
+
+/* Untuk di Desktop */
+@media (min-widht: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+
+    }
+}
+
+.jumbroton{
+    background-image: url(img/hi.jpg);
+}
+
+button {
+    background-color: #ddd;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  .button:hover {
+    background-color: #3be924;
+  }
+  
